@@ -1,7 +1,7 @@
-public class RefrigereToxique extends Refrigere {
+public class RefrigereToxique extends Produit {
 
     public RefrigereToxique(int prix, String marque, String nom, int tempConservation) {
-        super(prix, marque, nom, tempConservation);
+        super(prix, marque, nom);
+        setTempConservation(tempConservation);
     }
-
 }
